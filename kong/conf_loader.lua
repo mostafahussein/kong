@@ -464,6 +464,7 @@ local CONF_INFERENCES = {
   cluster_mtls = { enum = { "shared", "pki" } },
   cluster_ca_cert = { typ = "string" },
   cluster_server_name = { typ = "string" },
+  kic = { typ = "boolean" },
 }
 
 
