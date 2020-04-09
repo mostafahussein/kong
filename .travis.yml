@@ -29,6 +29,7 @@ addons:
 
 env:
   global:
+    - KONG_BUILD_TOOLS_BRANCH=feat/dyn-upstream-keepalive
     - INSTALL_CACHE=$HOME/install-cache
     - DOWNLOAD_ROOT=$HOME/download-root
     - KONG_TEST_PG_DATABASE=travis
